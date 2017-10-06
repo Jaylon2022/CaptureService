@@ -1,0 +1,15 @@
+支持win7+win10
+
+截屏技术：
+Windows7采用mirror驱动截屏，是目前官网支持的win7上最高效截屏方式；
+win10采用desktop duplicate API方式截屏，也是win8及以上系统最高效的截屏方式；
+
+截屏特点：屏幕有更新时才通知进行屏幕获取；
+
+图片压缩技术：
+采用ffmpeg进行H264压缩；
+
+windows安装说明：
+win7系统需要安装dfmirage-setup-2.0.301（附件里有）
+win10不用安装。
+
